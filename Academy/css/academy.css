@@ -1,0 +1,257 @@
+body{
+	padding: 0 !important;
+	margin: 0 !important ;
+	font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif ;   
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;}
+
+/* Style the links inside the sidenav */
+#layer {
+	width: 100% ;
+	height: 100% ;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+}
+
+#layer:hover {
+	background-color: rgba(0,0,0,0);
+}
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 150px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 15px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+    background-color:  rgb(179, 77, 77);
+}
+
+/* The about link: 20px from the top with a green background */
+#HOME {
+
+    top: 100px;
+    background-color:  rgb(0, 0, 8);
+}
+
+#ACADEMY {
+    top: 160px;
+    background-color:rgb(0, 0, 8); 
+}
+
+#ENTERPRISE {
+    top: 220px;
+    background-color:rgb(0, 0, 8);
+}
+
+#JOIN  {
+    top: 280px;
+    background-color:rgb(0, 0, 8); 
+}
+#cover {
+	height: 600px;
+	background-image: url('../images/work3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0 !important;
+	margin: 0!important;
+}
+.heading1 {
+	position: center ;
+	
+	margin-top: 0;
+	font-size: 150px ;
+	font-weight: 100 ;
+	color: rgb(255, 255, 255);
+	font-style: lucida ;
+}
+#cover2 {
+	height: 600px;
+	background-color: rgb(255,255,255);
+
+}
+.heading2 {
+	position: center;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	padding-top: 90px;
+
+}
+.heading3 {
+	position: center;
+	padding-top: 25px;
+	padding: 50px;
+	color:black ;
+	text-align: center;
+
+}
+.shape{
+	position: center;
+	background-color: rgba(30, 30, 30, 0.7);
+	height: 300px !important;
+}
+.shape2{
+	position: center;
+	background-color: rgb(255,255,255);
+	height: 300px !important;
+}
+.shape3{
+	position: center;
+	float: center;
+	height: 600px;
+padding-left: 300px;
+padding-right: 300px;
+
+}
+.rr {
+	height: 500px !important;
+	padding-top: : 0 !important;
+	margin: 0 !important;
+	background-image: url('../images/Background.jpg');
+	background-size: cover;
+	position: center;
+	float: center;
+	text-align: center;
+	background-attachment: fixed;
+
+}
+.heading4{font-weight:500;font-size: 100px; 
+	position: center;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	}
+	/*apply*/
+	.button {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #f4511e ;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+
+ .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+ }
+
+ .button:hover span {
+  padding-right: 25px;
+ }
+
+ .button:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+/*apply*/
+
+
+.subs{ background-image: url('../images/work3.jpg');
+height:700px;
+background-attachment: fixed;
+background-size: cover;
+}
+.sublayer {width: 40%;
+	height: 100%;
+	background-color:rgba(79, 39, 0, 0.6);
+	float:left
+}
+.sublayer1{
+	color: #FFF;
+	position:relative;
+	top:32%;
+	text-align: center;
+}
+
+
+/*newsletter*/
+ #newsletter {
+	
+	padding-top: 200px;
+	padding-left: 100px;
+	text-align: center;
+	width: 50%;
+	float:left;
+	text-align: center;
+	height:100%
+  }
+
+ .heading5 {
+	
+  font-size: 300%;
+  font-weight: 400;
+  color: #fff ;
+ }
+
+ #newletter_email{
+	width: 400px;
+	height: 25px;
+ }
+
+ .btn1 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	width: 150px;
+	background-color: rgba(0,0,0,0);
+	border:1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+ }
+
+ .btn1:hover{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	border: 1px solid white;
+ }
+
+ .link{
+    color: #333 !important;
+ }
+
+ .fa-facebook-official:hover{color:#3B5998}
+ .fa-twitter-square:hover{color:#4099FF}
+ .fa-youtube-play:hover{color:#e52d27}
+ .fa-instagram:hover{color:#8a3ab9}
+/*newsletter*/
